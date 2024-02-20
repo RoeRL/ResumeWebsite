@@ -7,11 +7,11 @@ const Navbar = () => {
     <>
       <div className="w-full h-20 bg-white-0 sticky top-0">
         <div className="flex justify-center container mx-auto px-4 h-full">
-          <div className="mr-10 ">
-            <Logo/>
-          </div>
           <div className="flex items-center h-full">
-            <ul className="hidden md:flex gap-x-6 text-black">
+            <div className="mr-5">
+              <Logo/>
+            </div>
+            <ul className="hidden md:flex gap-x-6 text-white">
               <li>
                 <Link href="/discover">
                   <p>Discover</p>
