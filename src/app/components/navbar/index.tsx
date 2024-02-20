@@ -7,11 +7,13 @@ const Navbar = () => {
     <>
       <div className="w-full h-20 bg-white-0 sticky top-0">
         <div className="flex justify-center container mx-auto px-4 h-full">
-          <div className="flex items-center h-full">
-            <div className="mr-5">
-              <Logo/>
-            </div>
+          <div className="flex items-center h-full w-full justify-center">
             <ul className="hidden md:flex gap-x-6 text-white">
+              <li>
+                <Link href="/">
+                  <p>Home</p>
+                </Link>
+              </li>
               <li>
                 <Link href="/discover">
                   <p>Discover</p>
@@ -20,11 +22,6 @@ const Navbar = () => {
               <li>
                 <Link href="/about">
                   <p>About</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <p>Contacts</p>
                 </Link>
               </li>
             </ul>

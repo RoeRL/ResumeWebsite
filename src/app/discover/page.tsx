@@ -52,20 +52,6 @@ const Discover = () => {
                 </Link>
               </div>
             </div>
-            <div className="m-5 text-2xl">
-              <h1>Portofolio</h1>
-              <div className="flex justify-center items-center flex-col">
-                <Link href="/discover/portofolio">
-                  <Image
-                    src={archive}
-                    alt="Archive"
-                    width="65"
-                    height="60"
-                    className="relative m-3"
-                  />
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
