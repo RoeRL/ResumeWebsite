@@ -40,9 +40,9 @@ const Logo = () => {
         <Image
           src={logo}
           alt="Logo"
-          width= "60"
+          width= "65"
           height={width < 500 ? "10" : "60"}
-          className="relative ml-5"
+          className="relative"
         />
       </Link>
       <div

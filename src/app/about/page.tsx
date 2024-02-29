@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bimos from "@/app/components/images/bimoThumbsup.jpg"
-import rusLogo from "@/app/components/images/logoRus.png"
+import polmanLogo from "@/app/components/images/logoPolman.png"
 
 const About = () => {
   return (
@@ -35,27 +35,27 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center w-full h-screen bg-gray-500 rounded-md">
-        <div className="text-right text-black">
+      <div className="flex justify-center items-center w-full h-screen rounded-md">
+        <div className="text-right">
           <div className="m-5">
-            <h1 className="text-4xl font-bold mb-5 ml-3">Recent Education</h1>
+            <h1 className="text-4xl font-bold mb-5 ml-3">Education</h1>
             <div className="m-3">
-              <h3>Raden Umar Said Vocational School, Kudus</h3>
+              <h3>Bandung Manufacturing Polytechnic</h3>
             </div>
             <div className="m-3">
-              <h3>Besito Gebog Kudus, Jawa Tengah</h3>
-              <h3>Indonesia</h3>
+              <h3>Jl. Kanayakan No.21, Dago, Kecamatan Coblong,</h3>
+              <h3>Kota Bandung, Jawa Barat 40135</h3>
             </div>
             <div className="m-3">
-              <h3>contact@smkrus.sch.id</h3>
-              <h3>+62 0291 430202</h3>
+              <h3>sekretariat@polman-bandung.ac.id</h3>
+              <h3>+62 811 2243 666</h3>
             </div>
           </div>
         </div>
         <div className="m-10">
           <Image
-            src={rusLogo}
-            alt="RUS"
+            src={polmanLogo}
+            alt="Polman"
             width= "200"
             height="150"
             className="relative rounded-md"
