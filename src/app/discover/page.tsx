@@ -41,7 +41,7 @@ const Discover = () => {
             <div className="m-5 text-2xl">
               <h1>Archivement</h1>
               <div className="flex justify-center items-center flex-col">
-                <Link href="/discover/archivement">
+                <Link href="/discover">
                   <Image
                     src={archive}
                     alt="Archive"
